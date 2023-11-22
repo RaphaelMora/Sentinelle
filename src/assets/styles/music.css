@@ -1,0 +1,7 @@
+.boutonMusic {
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 33%;
+}

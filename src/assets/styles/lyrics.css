@@ -1,0 +1,30 @@
+@keyframes scrollUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+#story {
+  z-index: 0;
+  width: 33%;
+  height: 1800px;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  position: absolute;
+  bottom: 30px;
+
+  animation: scrollUp 260s linear infinite;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(89, 144, 213);
+}
+.boutonLyrics {
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  width: 33%;
+}
